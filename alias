@@ -1,0 +1,5 @@
+#  PYCHARM ALIAS #
+
+locate .bash
+vim %HONE%/.bashrc
+alias pycharm='bash %HOME%/path_to_sh_file'
