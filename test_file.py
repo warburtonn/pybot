@@ -7,13 +7,14 @@ ${card_part}
 test1                               100                 @{card}
 
 *** Keywords ***
+[Arguments]          @{card}
 Input Card Number With FOR
 
 
 
 ----------------------
 Another file.txt
-Input Card Number With FOR
+Input Card Number With FOR    @{card}  
     [Arguments]         @{card}
         :FOR            ${card_part}    IN      @{credit_card}[0]
         Focus   ${FIELD_LOCATOR}
