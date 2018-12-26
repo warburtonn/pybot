@@ -16,6 +16,6 @@ Input Card Number With FOR
 Another file.txt
 Input Card Number With FOR    @{card}  
     [Arguments]         @{card}
-        :FOR            ${card_part}    IN      @{credit_card}[0]
+        :FOR            ${card_part}    IN      @{сard}[0]
         Focus   ${FIELD_LOCATOR}
         Input text     ${FIELD_LOCATOR}     ${card_part}
