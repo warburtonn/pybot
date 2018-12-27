@@ -6,8 +6,8 @@
 test1                               100                 @{credit_card}
 
 *** Keywords ***
-[Arguments]          @{card}
-Input Card Number With FOR
+[Arguments]          @{credit_card}
+Input Card Number With FOR    @{credit_card}
 
 
 
